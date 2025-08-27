@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates the application of privacy-preserving techniques such as Differential Privacy, Homomorphic Encryption, and Secure Multiparty Computation (SMPC) to health data analysis. The aim is to analyze health data while ensuring that patient privacy is maintained throughout the process.
+This project demonstrates the application of privacy-preserving techniques such as Differential Privacy to health data analysis. The aim is to analyze health data while ensuring that patient privacy is maintained throughout the process.
 
 ## Tech Stack
 
