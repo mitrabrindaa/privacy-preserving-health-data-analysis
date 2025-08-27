@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
 # Load the differentially private data
-df = pd.read_csv('data/DP_Disease_symptom_and_patient_profile.csv')
+df = pd.read_csv('../data/DP_Disease_symptom_and_patient_profile.csv')
 
 
 # Encode categorical features and target

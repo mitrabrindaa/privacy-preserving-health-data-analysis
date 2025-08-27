@@ -23,9 +23,10 @@ target_column = 'Disease'
 if target_column in df.columns:
     # Visualize the distribution of target variable
     plt.figure(figsize=(8, 6))
-    sns.countplot(x=target_column, data=df) 
+    sns.countplot(x=target_column, data=df)
     plt.title('Distribution of Target Variable')
-    plt.show()
+    plt.savefig('../result/disease_distribution.png')
+    plt.close()
 else:
     print(f"Error: '{target_column}' column not found in the dataset.")
 
@@ -42,7 +43,8 @@ else:
     correlation_matrix = numeric_df.corr()
     sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt='.2f')
     plt.title('Correlation Matrix')
-    plt.show()
+    plt.savefig('../result/correlation_matrix.png')
+    plt.close()
 
 
-df.to_csv('data/Preprocessed_Disease_symptom_and_patient_profile.csv', index=False)
+df.to_csv('../data/Preprocessed_Disease_symptom_and_patient_profile.csv', index=False)
