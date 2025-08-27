@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates the application of privacy-preserving techniques such as Differential Privacy to health data analysis. The aim is to analyze health data while ensuring that patient privacy is maintained throughout the process.
+This project demonstrates privacy-preserving health data analysis using Differential Privacy and machine learning. The goal is to analyze health data and build predictive models while protecting patient privacy.
 
 ## Tech Stack
 
@@ -12,8 +12,10 @@ This project demonstrates the application of privacy-preserving techniques such 
 
 ## Key Features
 
-- **Data Exploration and Visualization:** Perform exploratory data analysis (EDA) to gain insights into the data. Visualize trends, patterns, and distributions.
-- **Differential Privacy:** Implement differential privacy techniques to ensure that the analysis does not compromise individual privacy.
+- **Data Exploration and Visualization:** Explore and visualize health data to understand distributions and relationships.
+- **Differential Privacy:** Add Laplace noise to numeric data to protect individual privacy before analysis.
+- **Privacy-Preserving Machine Learning:** Group rare classes, balance the dataset, and train/tune models on privacy-preserved data.
+- **Class Imbalance Handling:** Use oversampling to ensure robust model performance.
 
 ## Usage
 
